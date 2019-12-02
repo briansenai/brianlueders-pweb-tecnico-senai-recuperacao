@@ -33,6 +33,11 @@ $routes($app);
 $routes = require __DIR__ . '/../src/configcarro.php';
 $routes($app);
 
+// Register routes
+$routes = require __DIR__ . '/../src/tabela.php';
+$routes($app);
+
+
 
 // Run app
 $app->run();

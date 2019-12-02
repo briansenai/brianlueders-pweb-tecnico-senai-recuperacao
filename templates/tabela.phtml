@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>TABELA DE CARROS DA LOJA</title>
+        <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/jquery/script.js"></script>
+         
+        <style>
+        
+
+        </style>
+    </head>
+    <body>
+    <form method="post" action="/tabelacarro/">
+            <h2>TABELA DE CARROS DA LOJA</h2> 
+            <div class="col-12">
+            <?php
+              echo "<h5>" . "R$ " . $_SESSION['carro'] . "</h5>";
+              ?>
+            </div>
+    
+   
+      </form>
+            
+
+
+    </body>
+
+</html>
